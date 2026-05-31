@@ -1,0 +1,34 @@
+[files]
+spp = "SPP_ex-ante_and_ex-post_2026.xlsx"
+rlp = "RLP0N 2026 Electricity all DSOs.xlsb"
+belpex = "quarter-hourly-spot-belpex--c--elexys.xlsx"
+
+[[prices]]
+name = "Trevion Flex Injectie kwartier"
+index = "belpex-q-spp"
+a = "0.095"
+b = "-2.5"
+vat_percent = "0"
+
+[[prices]]
+name = "Trevion Flex Injectie uur"
+index = "belpex-h-spp"
+a = "0.095"
+b = "-2.5"
+vat_percent = "0"
+
+
+[[prices]]
+name = "Trevion Flex Afname kwartier"
+index = "belpex-q-rlp-vl"
+a = "0.107"
+b = "1.5"
+vat_percent = "6"
+
+
+[[prices]]
+name = "Trevion Flex Afname uur"
+index = "belpex-h-rlp-vl"
+a = "0.107"
+b = "1.5"
+vat_percent = "6"

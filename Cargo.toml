@@ -1,0 +1,12 @@
+[package]
+name = "belgian-spot-tariff-calculator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+calamine = "0.31"
+clap = { version = "4", features = ["derive"] }
+rust_decimal = { version = "1", features = ["serde-with-str"] }
+serde = { version = "1", features = ["derive"] }
+toml = "0.9"
